@@ -1,0 +1,10 @@
+<link rel="import" href="../components/polymer/polymer.html">
+<link rel="import" href="../components/polymer-ajax/polymer-ajax.html">
+
+<polymer-element name="tk-element" noscript>
+  <template>
+    <span>I'm <b>tk-element</b>. This is my Shadow DOM.</span>
+    <polymer-ajax url="http://echo.jsontest.com/key/value/one/two" auto response="{{resp}}"></polymer-ajax>
+    <textarea value="{{resp}}"></textarea>
+  </template>
+</polymer-element>

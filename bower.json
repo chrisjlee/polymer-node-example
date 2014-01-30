@@ -1,0 +1,12 @@
+{
+  "name": "polymer",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "polymer": "~0.1.4"
+  }
+}

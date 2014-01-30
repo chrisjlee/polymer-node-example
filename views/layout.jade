@@ -1,0 +1,14 @@
+doctype 5
+html
+  head
+    title= title
+    script(src='components/platform/platform.js')
+    link(rel='import', href='components/polymer/polymer.html')
+    link(rel='import', href='elements/tk-element.html')
+    link(rel='stylesheet', href='/css/style.css')
+    // bower:js
+    // endbower
+    script(src='http://localhost:35729/livereload.js')
+  body
+    block content
+    tk-element
